@@ -9,17 +9,21 @@ int main(){
 
     product= n*n;
 
-    while (n>9)
+    while (m>0)
     {
      
-        numlast = n%10;
-        prolast = product%10;
+        numlast = m % 10;
+        prolast = product % 10;
 
-        if(numlast == prolast){
-            printf("it is an ");
+        if(numlast != prolast){
+            printf("%d is not atomorphic number",n);
+            return 0;
         }
-
+        m/=10;
+        product/=10;
     }
+
+    printf("%d is an atomorphic number",n);
     
 
     return 0;
