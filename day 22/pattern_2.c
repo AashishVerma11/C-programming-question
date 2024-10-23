@@ -9,7 +9,6 @@ Write a C program to print given pattern.
            25    */
 
 
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
