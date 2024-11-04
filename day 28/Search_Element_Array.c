@@ -19,6 +19,7 @@ int main() {
         if(a[i]==ele){
             printf("Element %d found at index %d\n",ele,i);
             f=1;
+            break;
         }
     }
     if(f==0){
