@@ -14,7 +14,7 @@ int main(){
     printf("Element at even indices are: \n");
     
     for(int i=0; i<10; i++){
-        if(i%2==0){
+        if(a[i]%2==0){
             printf("Elements at index %d: %d\n",i,a[i]);
         }
     }
@@ -23,7 +23,7 @@ int main(){
 
     printf("Elements at odd indices are: \n");
     for(int i=0; i<10; i++){
-        if(i%2!=0){
+        if(a[i]%2!=0){
             printf("Element at index %d: %d\n",i, a[i]);
         }
     }
