@@ -17,6 +17,7 @@ int main()
         }
     }
 
+    printf("The matrix is: \n");
     for (row = 0; row < n; row++)
     {
         for (col = 0; col < n; col++)
@@ -26,7 +27,7 @@ int main()
         printf("\n");
     }
 
-    printf("The matrix is: \n");
+ 
     for (row = 0; row < n; row++)
     {
         for (col = 0; col < n; col++)
