@@ -1,3 +1,14 @@
+/*
+Que 1 :
+=======
+
+Write a C program to print the reverse of a given String .
+
+Example :
+Sample input  : "Welcome"
+Sample output : emocleW 
+*/
+
 #include <stdio.h>
 
 int main()
