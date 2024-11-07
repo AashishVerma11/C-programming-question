@@ -1,3 +1,17 @@
+/*
+
+Que 2 :
+=======
+
+Write a C program to count the number of alphabet present in a given String .
+
+Sample input  : Apple
+
+Sample output  : The count of alphabet is : 5
+
+*/
+
+
 #include <stdio.h>
 
 int main()
