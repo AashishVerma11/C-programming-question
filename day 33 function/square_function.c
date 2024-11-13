@@ -17,7 +17,7 @@ Sample output : The square of 20 is : 400
 
 #include <stdio.h>
 
-int square(int n);
+int square(int num);
 
 int main() {
     int num;
